@@ -15,7 +15,7 @@
  */
 body{
   margin: 0 auto;
-  background: url('rails.png');
+  background-image: url('rails.png');
   background-repeat: repeat;
 }
 
