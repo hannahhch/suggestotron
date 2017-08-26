@@ -19,6 +19,7 @@ class TopicsController < ApplicationController
 
   # GET /topics/1/edit
   def edit
+
   end
 
   # POST /topics
@@ -61,11 +62,19 @@ class TopicsController < ApplicationController
     end
   end
 
+  def downvote
+    @topic = Topic.find(params[:id])
+    @topic.votes.first.destroy
+    redirect_to(topics_path)
+  end
+
   def upvote
     @topic = Topic.find(params[:id])
     @topic.votes.create
     redirect_to(topics_path)
   end
+
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_topic
