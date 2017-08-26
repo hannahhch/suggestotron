@@ -13,6 +13,9 @@ Rails.application.configure do
   # relates to image but didnt work
   config.serve_static_assets = true
   config.assets.compile = true
+  config.cache_classes = true
+  config.assets.digest = true
+
 
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
