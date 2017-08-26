@@ -1,24 +1,10 @@
-# README
+# Intro To Rails
+## Suggestotron Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Goal
 
-Things you may want to cover:
+To teach you Ruby on Rails we are going to use a "Real World" example. You've decided to create a voting system for you and your friends to play with. You've decided at a minimum, you'd like to allow users to:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<li>view the topics sorted by number of votes</li>
+<li>vote on topics</li>
+<li>create, edit, and destroy topics</li>
