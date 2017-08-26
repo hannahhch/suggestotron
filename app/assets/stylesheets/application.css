@@ -14,18 +14,20 @@
  *= require_self
  */
 body{
-  margin: auto 0;
-  background-color: #E84C3D;
+  margin: 0 auto;
+  background: url('rails.png');
+  background-repeat: repeat;
 }
 
 .wrapper{
   width: 80%;
-  margin: 5%;
+  margin: 100px auto;
   text-align: center;
   color: #E84C3D;
   background-color: white;
   padding: 5%;
-  border-radius: 6%;
+  border: solid white 10px;
+  border-radius: 20px;
 }
 
 table{
