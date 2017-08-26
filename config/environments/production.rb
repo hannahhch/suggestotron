@@ -10,7 +10,7 @@ Rails.application.configure do
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
 
-  # relates to image but didnt work
+  # relates to image but maybe worked
   config.serve_static_assets = true
   config.assets.compile = true
   config.cache_classes = true
